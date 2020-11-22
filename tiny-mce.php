@@ -8,7 +8,9 @@ function tiny_mce_add_buttons( $plugins ) {
 function tiny_mce_register_buttons( $buttons ) {
   $newBtns = array(
     'affiliateshortcodesbtn',
-    'testbtn'
+    'inahurrybtn',
+    'contentcleanupbtn',
+    'shortcodelistbtn'
   );
   $buttons = array_merge( $buttons, $newBtns );
   return $buttons;
